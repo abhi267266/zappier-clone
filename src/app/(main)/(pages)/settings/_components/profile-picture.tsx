@@ -1,10 +1,11 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client'
 import React from 'react'
-import UploadCareButton from './uploadcare-button'
 import { useRouter } from 'next/navigation'
 import Image from 'next/image'
 import { Button } from '@/components/ui/button'
 import { X } from 'lucide-react'
+import UploadCareButton from './uploadcare-button'
 
 type Props = {
   userImage: string | null
