@@ -1,0 +1,125 @@
+t=2024-09-29T15:49:23+0530 lvl=info msg="no configuration paths supplied"
+t=2024-09-29T15:49:23+0530 lvl=info msg="using configuration at default config path" path="/Users/abhishekpathak/Library/Application Support/ngrok/ngrok.yml"
+t=2024-09-29T15:49:23+0530 lvl=info msg="open config file" path="/Users/abhishekpathak/Library/Application Support/ngrok/ngrok.yml" err=nil
+t=2024-09-29T15:49:23+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-09-29T15:49:23+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T15:49:23+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T15:49:23+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:8080 url=https://24d7-2405-201-3042-8019-519b-8015-5ac7-6cab.ngrok-free.app
+t=2024-09-29T15:49:26+0530 lvl=info msg=start pg=/grpc/agent.Web/State id=6abdebbe5cb42a99
+t=2024-09-29T15:50:49+0530 lvl=warn msg="failed to open private leg" id=487fa9a5ef1c privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2024-09-29T15:51:25+0530 lvl=warn msg="failed to open private leg" id=224890197e4b privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2024-09-29T15:51:31+0530 lvl=warn msg="failed to open private leg" id=c8d98a376dfb privaddr=localhost:8080 err="dial tcp [::1]:8080: connect: connection refused"
+t=2024-09-29T15:52:27+0530 lvl=info msg="Got quit command" obj=consoleui
+t=2024-09-29T15:52:27+0530 lvl=info msg="received stop request" obj=app stopReq="{err:<nil> restart:false}"
+t=2024-09-29T15:52:27+0530 lvl=info msg="session closing" obj=tunnels.session err=nil
+t=2024-09-29T15:52:27+0530 lvl=info msg="accept failed" obj=tunnels.session obj=csess id=73df29e8c7c0 err="reconnecting session closed"
+t=2024-09-29T15:52:27+0530 lvl=info msg="no more state changes" obj=tunnels.session
+t=2024-09-29T15:52:37+0530 lvl=info msg="no configuration paths supplied"
+t=2024-09-29T15:52:37+0530 lvl=info msg="using configuration at default config path" path="/Users/abhishekpathak/Library/Application Support/ngrok/ngrok.yml"
+t=2024-09-29T15:52:37+0530 lvl=info msg="open config file" path="/Users/abhishekpathak/Library/Application Support/ngrok/ngrok.yml" err=nil
+t=2024-09-29T15:52:37+0530 lvl=info msg="starting web service" obj=web addr=127.0.0.1:4040 allow_hosts=[]
+t=2024-09-29T15:52:38+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T15:52:38+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T15:52:38+0530 lvl=info msg="started tunnel" obj=tunnels name=command_line addr=http://localhost:3000 url=https://71cc-2405-201-3042-8019-519b-8015-5ac7-6cab.ngrok-free.app
+t=2024-09-29T15:52:38+0530 lvl=info msg=start pg=/grpc/agent.Web/State id=fb8682cf6884ec6a
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/inspect/http id=0ecc33093cd53f95
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/inspect/http id=0ecc33093cd53f95 status=200 dur=371.542µs
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/grpc/agent.Web/State id=fb8682cf6884ec6a status=200 dur=10.051125542s
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/static/css/app.56e3b647e09ab2e22024.css id=0b26c06f8e3ec673
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/static/js/rpx.648d0a250f164f7f3769.js id=00699486ccc07688
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/static/js/vendor.0f8672f152d625f99d44.js id=8e7e26cb7f6e76d5
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/static/js/app.01ee39fa52c86d0f5897.js id=3f98618308bd8258
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/static/js/rpx.648d0a250f164f7f3769.js id=00699486ccc07688 status=200 dur=4.85225ms
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/static/js/app.01ee39fa52c86d0f5897.js id=3f98618308bd8258 status=200 dur=3.28525ms
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/static/css/app.56e3b647e09ab2e22024.css id=0b26c06f8e3ec673 status=200 dur=10.2245ms
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/static/js/vendor.0f8672f152d625f99d44.js id=8e7e26cb7f6e76d5 status=200 dur=8.838875ms
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=28e78f9a1feeb921
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/grpc/agent.Web/State id=700ec82513780935
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=28e78f9a1feeb921 status=200 dur=787.333µs
+t=2024-09-29T15:52:48+0530 lvl=info msg=start pg=/static/favicon.ico id=ca04ab394cadab3f
+t=2024-09-29T15:52:48+0530 lvl=info msg=end pg=/static/favicon.ico id=ca04ab394cadab3f status=200 dur=119.75µs
+t=2024-09-29T15:52:49+0530 lvl=info msg=start pg=/static/favicon.ico id=a0035ac5c35c8272
+t=2024-09-29T15:52:49+0530 lvl=info msg=end pg=/static/favicon.ico id=a0035ac5c35c8272 status=304 dur=106.792µs
+t=2024-09-29T15:52:50+0530 lvl=info msg=start pg=/inspect/http id=ca1eeca7d50c482c
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/inspect/http id=ca1eeca7d50c482c status=200 dur=172.667µs
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/grpc/agent.Web/State id=700ec82513780935 status=200 dur=2.099368542s
+t=2024-09-29T15:52:50+0530 lvl=info msg=start pg=/static/css/app.56e3b647e09ab2e22024.css id=c035c212becaef24
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/static/css/app.56e3b647e09ab2e22024.css id=c035c212becaef24 status=304 dur=126.417µs
+t=2024-09-29T15:52:50+0530 lvl=info msg=start pg=/static/js/vendor.0f8672f152d625f99d44.js id=537c3bc152b9a08d
+t=2024-09-29T15:52:50+0530 lvl=info msg=start pg=/static/js/rpx.648d0a250f164f7f3769.js id=c8c851b51a722b16
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/static/js/rpx.648d0a250f164f7f3769.js id=c8c851b51a722b16 status=304 dur=176.417µs
+t=2024-09-29T15:52:50+0530 lvl=info msg=start pg=/static/js/app.01ee39fa52c86d0f5897.js id=9bfc6d00d1327801
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/static/js/app.01ee39fa52c86d0f5897.js id=9bfc6d00d1327801 status=304 dur=315.25µs
+t=2024-09-29T15:52:50+0530 lvl=info msg=end pg=/static/js/vendor.0f8672f152d625f99d44.js id=537c3bc152b9a08d status=304 dur=3.743167ms
+t=2024-09-29T15:52:51+0530 lvl=info msg=start pg=/grpc/agent.Web/Preloaded id=c13a145979b84c53
+t=2024-09-29T15:52:51+0530 lvl=info msg=start pg=/grpc/agent.Web/State id=e1da30275d7ba3da
+t=2024-09-29T15:52:51+0530 lvl=info msg=end pg=/grpc/agent.Web/Preloaded id=c13a145979b84c53 status=200 dur=1.033167ms
+t=2024-09-29T15:52:51+0530 lvl=info msg=start pg=/static/favicon.ico id=0188acd124ae7a59
+t=2024-09-29T15:52:51+0530 lvl=info msg=end pg=/static/favicon.ico id=0188acd124ae7a59 status=304 dur=61.417µs
+t=2024-09-29T15:52:59+0530 lvl=info msg=end pg=/grpc/agent.Web/State id=e1da30275d7ba3da status=200 dur=8.356793s
+t=2024-09-29T15:54:19+0530 lvl=info msg="join connections" obj=join id=3c1e3ac06340 l=[::1]:3000 r=52.215.16.239:53451
+t=2024-09-29T15:56:35+0530 lvl=info msg="join connections" obj=join id=d1df83a43df3 l=[::1]:3000 r=63.33.109.123:56805
+t=2024-09-29T15:56:41+0530 lvl=info msg="join connections" obj=join id=b2f2b404ba7c l=[::1]:3000 r=63.33.109.123:59678
+t=2024-09-29T15:59:49+0530 lvl=info msg="join connections" obj=join id=d34065d8b2f9 l=[::1]:3000 r=63.33.109.123:53725
+t=2024-09-29T16:00:52+0530 lvl=info msg="join connections" obj=join id=9b75de958fec l=[::1]:3000 r=63.33.109.123:53725
+t=2024-09-29T16:02:49+0530 lvl=info msg="join connections" obj=join id=0b5070210eaa l=[::1]:3000 r=63.33.109.123:35135
+t=2024-09-29T16:04:23+0530 lvl=info msg="join connections" obj=join id=b7d05d56b48e l=[::1]:3000 r=63.33.109.123:5909
+t=2024-09-29T16:04:28+0530 lvl=info msg="join connections" obj=join id=0c1d36503840 l=[::1]:3000 r=63.33.109.123:50500
+t=2024-09-29T16:10:20+0530 lvl=warn msg="failed to open private leg" id=3182129364ed privaddr=localhost:3000 err="dial tcp [::1]:3000: connect: connection refused"
+t=2024-09-29T16:16:49+0530 lvl=warn msg="failed to open private leg" id=535225ded0fd privaddr=localhost:3000 err="dial tcp [::1]:3000: connect: connection refused"
+t=2024-09-29T16:24:31+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="read EOF from remote peer"
+t=2024-09-29T16:24:32+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T16:24:32+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T16:27:42+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=03ae37afd9f3 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T16:43:03+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=b2ccada28907 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T16:43:03+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T16:43:03+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T16:43:03+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T17:05:49+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=c6b98f75c1ad clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T17:05:49+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T17:05:50+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T17:05:50+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T17:21:25+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=e343c9b9e130 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T17:21:25+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T17:21:26+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T17:21:26+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T17:41:34+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=32a260f598f3 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T17:41:34+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T17:41:36+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T17:41:36+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T17:59:16+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=2deebdbb55d7 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T17:59:16+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T17:59:17+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T17:59:17+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T18:05:44+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="read tcp [2405:201:3042:8019:519b:8015:5ac7:6cab]:63372->[2406:da1a:e91:9300::6e74:3]:443: read: connection reset by peer"
+t=2024-09-29T18:05:46+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T18:05:46+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T18:05:58+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=af4525b136ac clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T18:23:41+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=5669dd2acee6 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T18:23:41+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T18:23:42+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T18:23:42+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T18:39:07+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=a7aea7d3ba44 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T18:39:07+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T18:39:08+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T18:39:08+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T18:54:32+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=d9360b095a9e clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T18:54:32+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T18:54:34+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T18:54:34+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T19:16:11+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=1ae8fd1c38b1 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T19:16:11+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T19:16:11+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T19:16:11+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T19:31:46+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=22c9c09e92ae clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T19:31:46+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T19:31:47+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T19:31:47+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T19:47:11+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=2918d374bd30 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T19:47:11+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T19:47:13+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T19:47:13+0530 lvl=info msg="tunnel session started" obj=tunnels.session
+t=2024-09-29T19:58:57+0530 lvl=eror msg="heartbeat timeout, terminating session" obj=tunnels.session obj=csess id=cfbd3e9f0bb9 clientid=521b8c17031edd054b675a6088710066
+t=2024-09-29T19:58:57+0530 lvl=eror msg="session closed, starting reconnect loop" obj=tunnels.session obj=csess id=f2ea832819d4 err="session closed"
+t=2024-09-29T19:58:58+0530 lvl=info msg="client session established" obj=tunnels.session
+t=2024-09-29T19:58:58+0530 lvl=info msg="tunnel session started" obj=tunnels.session
